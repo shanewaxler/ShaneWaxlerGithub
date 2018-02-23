@@ -13,16 +13,19 @@ public class TriangleThree
 
 	public TriangleThree()
 	{
-		setTriangle(0," ");
+		setTriangle(letter,size);
 	}
 
 	public TriangleThree(int count, String let)
 	{
-		setTriangle(count,let);
-		
+		setTriangle(let,count);
+		String triangle = "";
+		for (int i = 0;i<= size; i++){
+			triangle = triangle
+		}
 	}
 
-	public void setTriangle(int sz, String let)
+	public void setTriangle( String let, int sz )
 	{
 		letter = let;
 		size = sz;
@@ -30,21 +33,12 @@ public class TriangleThree
 
 	public String getLetter()
 	{
-		return letter;
+		return "#";
 	}
 
 	public String toString()
 	{
-		String triangle = "";
-		for (int i = 0;i< size; i++){
-			for(int j = 1; j< size - i;j++){
-				triangle+=" ";
-			}
-			for(int k = 0; k< i+1;k++){
-				triangle+= getLetter();
-			}
-			triangle+="\n";
-		}
-		return triangle + "\n";
+		String output="";
+		return output+"\n";
 	}
 }
