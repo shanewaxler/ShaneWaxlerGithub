@@ -24,5 +24,12 @@ public class Lab0a3
 		System.out.println("\\\\ draws one backslash on the screen!\n" );
 		System.out.println("\\\" draws one double quote on the screen!\n" );
 		System.out.println("\\\' draws one single quote on the screen!\n" );
+		String w = "shrek";
+		for (int e = 0; e<w.length();e++){
+			for(int f = 0; f<=e;f++){
+				System.out.println(w.charAt(f));
+			}
+			System.out.println();
+		}
 	}
 }

@@ -10,8 +10,10 @@ import java.util.Scanner;
 
 public class Grades
 {
-	 
-
+	private double 
+	public Grades(int a, double[] arr){
+		
+	}
 
 
 
