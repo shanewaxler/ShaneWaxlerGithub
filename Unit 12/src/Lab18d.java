@@ -40,6 +40,6 @@ public class Lab18d
 		{
 			out.println(words.get(i));
 		}
-		out.println(temp);
+		
 }
 }
