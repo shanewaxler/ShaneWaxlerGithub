@@ -108,7 +108,7 @@ public class OuterSpace extends Canvas implements KeyListener, Runnable
 			if (ship.isColliding(horde.getAliens().get(i))) {
 				System.out.println("You lose.");
 				System.exit(0);
-				}
+			}
 
 		horde.moveEmAll();
 		shots.moveEmAll();
